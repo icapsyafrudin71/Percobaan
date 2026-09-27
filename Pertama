@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GURU AI STUDIO</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 flex min-h-screen text-slate-800">
+
+  <!-- Sidebar -->
+  <aside class="w-64 bg-white border-r p-5 space-y-6">
+    <div>
+      <h1 class="text-xl font-bold text-blue-600">GURU AI STUDIO</h1>
+      <p class="text-xs text-slate-400">AI-Powered Learning & Media Creator</p>
+    </div>
+    <nav class="space-y-4 text-sm font-medium">
+      <div>
+        <span class="text-xs text-slate-400 uppercase tracking-wider">Workspace</span>
+        <a href="#" class="block mt-2 px-3 py-2 bg-blue-50 text-blue-600 rounded-lg">Dashboard</a>
+      </div>
+      <div>
+        <span class="text-xs text-slate-400 uppercase tracking-wider">Teaching Studio</span>
+        <a href="#" class="block mt-2 px-3 py-2 hover:bg-slate-50 rounded-lg">Learning Studio</a>
+        <a href="#" class="block px-3 py-2 hover:bg-slate-50 rounded-lg">Assessment Studio</a>
+      </div>
+    </nav>
+  </aside>
+
+  <!-- Konten Utama -->
+  <main class="flex-1 p-8">
+    <div class="bg-blue-600 text-white p-6 rounded-2xl mb-6 shadow-sm">
+      <h2 class="text-2xl font-bold mb-2">GURU AI STUDIO 🚀</h2>
+      <p class="text-blue-100 text-sm">Ubah konteks pembelajaran menjadi prompt khusus untuk kebutuhan guru.</p>
+    </div>
+
+    <!-- Kotak Fitur / Prompt Engine -->
+    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+      <h3 class="font-bold text-lg mb-4">Prompt Engine</h3>
+      <div class="grid grid-cols-2 gap-4 text-sm mb-6">
+        <div class="p-3 bg-slate-50 rounded-lg border">📘 <b>Learning Prompt:</b> LKPD & Bahan Ajar</div>
+        <div class="p-3 bg-slate-50 rounded-lg border">📝 <b>Assessment Prompt:</b> Asesmen & Rubrik</div>
+        <div class="p-3 bg-slate-50 rounded-lg border">🎨 <b>Image Prompt:</b> Visual Pembelajaran</div>
+        <div class="p-3 bg-slate-50 rounded-lg border">🎬 <b>Video Prompt:</b> Storyboard & Naskah</div>
+      </div>
+      <div class="flex gap-3">
+        <button class="bg-blue-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-blue-700">Mulai dari Ide</button>
+        <button class="bg-emerald-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-emerald-700">Buka Prompt Studio</button>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
